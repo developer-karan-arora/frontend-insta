@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
-import { AiFillLike, AiOutlineLike } from "react-icons/Ai";
+// import { AiFillLike, AiOutlineLike } from "react-icons/Ai";
 import { BsBookmarkCheck, BsBookmarkCheckFill } from "react-icons/Bs";
 import axios from "axios";
 import url from "../apis/url";
@@ -182,15 +182,19 @@ function Post({ data, userDetails, del }) {
       <div className="tools">
         <span onClick={handleLike}>
           {isLike ? (
-            <AiFillLike className="link-col" />
+            <span>Liked</span>
+            // <AiFillLike className="link-col" />
           ) : (
-            <AiOutlineLike className="link-col" />
+            <span>Like</span>
+            // <AiOutlineLike className="link-col" />
           )}
         </span>
         <span onClick={handleSave}>
           {isSaved ? (
+            // <span>Liked</span>
             <BsBookmarkCheckFill className="link-col" />
           ) : (
+            // <span>Bookmark</span>
             <BsBookmarkCheck className="link-col" />
           )}
         </span>
