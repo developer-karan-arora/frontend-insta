@@ -35,7 +35,5 @@ let url = {
     chat_getMsg: SocketIoUrl + "msg/getmsg/",
     chat_postMsg: SocketIoUrl + "msg/postmsg",
     chat_addConversation: SocketIoUrl + "addConversation",
-
-
 }
 export default url;

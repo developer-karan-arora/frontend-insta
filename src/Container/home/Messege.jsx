@@ -26,7 +26,8 @@ function Messege() {
     }
   }, [currentConvesation]);
   useEffect(() => {
-    socket.current = io("ws://localhost:4000");
+    // socket.current = io("ws://localhost:4000");
+    socket.current = io("ws://backend-insta-socket.vercel.app/");
   }, []);
   useEffect(() => {
     socket.current.on("getMessage", (data) => {
