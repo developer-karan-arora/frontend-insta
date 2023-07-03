@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
 // import { AiFillLike, AiOutlineLike } from "react-icons/Ai";
-import { BsBookmarkCheck, BsBookmarkCheckFill } from "react-icons/Bs";
+// import { BsBookmarkCheck, BsBookmarkCheckFill } from "react-icons/Bs";
 import axios from "axios";
 import url from "../apis/url";
 import { Link } from "react-router-dom";
@@ -191,11 +191,11 @@ function Post({ data, userDetails, del }) {
         </span>
         <span onClick={handleSave}>
           {isSaved ? (
-            // <span>Liked</span>
-            <BsBookmarkCheckFill className="link-col" />
+            <span>Bookmarked</span>
+            // <BsBookmarkCheckFill className="link-col" />
           ) : (
-            // <span>Bookmark</span>
-            <BsBookmarkCheck className="link-col" />
+            <span>Bookmark New</span>
+            // <BsBookmarkCheck className="link-col" />
           )}
         </span>
       </div>
