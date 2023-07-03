@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+  overflow: hidden;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.bold{
+  font-weight: bold;
+}
+.p-6{
+  padding: 6px;
+  border-bottom: 1px solid lightgray;
+}
+.user-photo{
+  min-height: 180px;
+    max-height: 180px;
+}
+.link-col{
+  color: rgb(240, 80, 107);
+  font-weight: 400;
+}
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

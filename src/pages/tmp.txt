@@ -1,0 +1,17 @@
+import React, { useEffect } from "react";
+import { styled } from "styled-components";
+
+
+/* React */
+function Root() {
+  /* React Element */
+  return (
+    <StyledPage className="StyledPage">
+    </StyledPage>
+  );
+}
+/* Styling */
+let StyledPage = styled.div`
+
+`;
+export default Root;

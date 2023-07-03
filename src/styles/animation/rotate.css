@@ -1,0 +1,10 @@
+.rotateanimation {
+  animation: rotateLogo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+@keyframes rotateLogo {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(-360deg)}
+}
