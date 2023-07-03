@@ -28,9 +28,9 @@ function SidebarMenu({closeSideBar}) {
           <Link to="/home/">
             <li>🏠 Home</li>
           </Link>
-          <Link to="/home/search">
+          {/* <Link to="/home/search">
             <li>🔎 Serch</li>
-          </Link>
+          </Link> */}
           {/* <Link to="/home/reels">
             <li>📷 Reels</li>
           </Link> */}
