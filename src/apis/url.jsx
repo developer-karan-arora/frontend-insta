@@ -1,4 +1,5 @@
 let baseUrl = "http://localhost:3100/"
+baseUrl = "https://backend-insta-tan.vercel.app/"
 let SocketIoUrl = "http://localhost:3000/"
 let url = {
     register : baseUrl + "auth/register",
